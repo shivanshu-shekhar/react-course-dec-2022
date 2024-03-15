@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- linking normalize styles -->
+	<link rel="stylesheet" href="./assets/styles/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+	<!-- linking external styles -->
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		contact us page
+	</title>
+</head>
+
+<body>
+	<header>
+		<div class="header-wrapper">
+			<aside class="collapsible-menu">
+				<button type="button"><i class="fa-solid fa-bars"></i></button>
+				<!-- <nav id="primaryNav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="/">Shorts</a></li>
+          <li><a href="/">Subcriptions</a></li>
+          <li><a href="/">Library</a></li>
+          <li><a href="/">History</a></li>
+        </ul>
+      </nav> -->
+			</aside>
+			<div class="main-header">
+				<a href="./index.html" class="logo-link">
+					<img src="./assets/images/youtube-black-2.png" alt="youtube logo"></a>
+				<div class="control-bar">
+					<input type="search" class="search-input" placeholder="Search">
+					<button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+					<button><i class="fa-solid fa-microphone"></i></button>
+					<button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+					<button><i class="fa-solid fa-user"></i> Sign in </button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="contact-us-heading">
+			<h1>This is the contact us page:</h1>
+		</div>
+		<div class="address-block">
+			<section class="address-map">
+				<h2>Reach us here at</h2>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.121310506327!2d88.48012421418682!3d22.574565738589186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b20f029fe9%3A0x94c3cd5abd4903db!2sCognizant%20Technology%20Solutions!5e0!3m2!1sen!2sin!4v1670392497988!5m2!1sen!2sin"
+					width="650" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+			<section class="address-text">
+				<address>
+					<h4>Cognizant Technology Solutions</h4>
+					Unitech Infospace, DH Block(Newtown), Action Area I<br>
+					Newtown, Kolkata, West Bengal 700156 <br>
+					<p>Phone:442524352</p>
+					<div class="contact-us-email">
+						<p>E-mail: <a href="mailto:contact@cognizant.com">contact@cognizant.com</a></p>
+					</div>
+				</address>
+			</section>
+		</div>
+		<section class="form-head">
+			<h2 class="contact-us-form-heading">Contact us by filling the form</h2>
+			<form class="contact-form">
+				<div class="field-group">
+					<label for="nameInput">Enter Name:</label>
+					<input id="nameInput" type="text" name="fullName" placeholder="Enter Your Name" required>
+				</div>
+				<div class="field-group">
+					<label for="emailInput">Enter E-Mail:</label>
+					<input id="emailInput" type="email" name="email" placeholder="Enter Your Email" required>
+				</div>
+				<div class="field-group">
+					<label for="phoneInput">Enter Phone:</label>
+					<input id="phoneInput" type="tel" name="phone" placeholder="Enter Your Phone" required>
+				</div>
+				<div class="field-group">
+					<label for="queryInput" class="query-label">Enter Query:</label>
+					<textarea id="queryInput" rows="5" cols="20" name="query" placeholder="Enter Your Query (max 250)"
+						required></textarea>
+				</div>
+				<div class="field-group">
+					<button type="submit">Send Query</button>
+					<button type="reset">Reset</button>
+				</div>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<nav id="secondaryNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact-us.html">contact us</a></li>
+				<li><a href="about-us.html">about us</a></li>
+				<li><a href="/">Library</a></li>
+				<li><a href="/">History</a></li>
+			</ul>
+		</nav>
+		</aside>
+		<div id="copyright">
+			<p>copyright &copy; 2022 | sourav </p>
+		</div>
+	</footer>
+</body>
+</html>
